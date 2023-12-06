@@ -1,0 +1,20 @@
+local Storage
+--------------------------------------------------
+ localStorage is a property that allows JavaScript sites and apps to save key-value pairs in a web browser with no expiration date. This means the data stored persists even after the user closes the browser or restarts the computer.
+ json/xml
+ C create - localStorage.setItem(key,value)
+ R read - localStorage.getItem(key)
+ U update - localStorage.setItem(key,value)
+ D delete - localStorage.removeItem(key)
+
+
+ js to json - JSON.stringify(data)
+ json to js - JSON.parse(data)
+
+ session - allows you to store data in the browser depending on the system memory and the data stored in browser until the browser is closed.
+ C create - sessionStorage.setItem(key,value)
+ R read - sessionStorage.getItem(key)
+ U update - sessionStorageStorage.setItem(key,value)
+ D delete - sessionStorageStorage.removeItem(key)
+
+cookies - 4kb per domain - server related data(send or receive from server)automatically expire or user delete the data
